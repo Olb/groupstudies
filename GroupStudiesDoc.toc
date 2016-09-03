@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@sectionintoc {2}{Some \LaTeX {} Examples}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Methods}{3}{0}{2}
+\beamer@subsectionintoc {2}{2}{Web App}{4}{0}{2}
+\beamer@subsectionintoc {2}{3}{Mobile App}{5}{0}{2}
+\beamer@subsectionintoc {2}{4}{Devices}{6}{0}{2}
+\beamer@subsectionintoc {2}{5}{Initial Goals \& Future Enhancement}{7}{0}{2}

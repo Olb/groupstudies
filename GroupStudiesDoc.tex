@@ -1,0 +1,137 @@
+\documentclass{beamer}
+%
+% Choose how your presentation looks.
+%
+% For more themes, color themes and font themes, see:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+%
+\mode<presentation>
+{
+  \usetheme{default}      % or try Darmstadt, Madrid, Warsaw, ...
+  \usecolortheme{default} % or try albatross, beaver, crane, ...
+  \usefonttheme{default}  % or try serif, structurebold, ...
+  \setbeamertemplate{navigation symbols}{}
+  \setbeamertemplate{caption}[numbered]
+} 
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+
+\title[Your Short Title]{MyEEE Project}
+\author{Billy Bray}
+\institute{University of Tennessee at Chattanooga}
+\date{September 3, 2016}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+% Uncomment these lines for an automatically generated outline.
+%\begin{frame}{Outline}
+%  \tableofcontents
+%\end{frame}
+
+\section{Introduction}
+
+\begin{frame}{Introduction}
+
+\begin{itemize}
+  \item Create tools to faciliate students understanding of Signals \& Systems
+  \item Use technology such as mobile apps, web apps, and IoT(Internet of Things) devices to demonstrate Signals \& Systems  in actual use
+\end{itemize}
+
+\vskip 1cm
+
+\begin{block}{Example}
+Students can download the mobile app to their phone or tablet and see examples of signals and systems. Students can then interact with the signals to see how the output changes in response to a different input or a change in the system.
+\end{block}
+
+\end{frame}
+
+\section{Some \LaTeX{} Examples}
+\subsection{Methods}
+
+\begin{frame}{Methods}
+
+\begin{itemize}
+\item Web App - HTML, CSS, Javascript
+\item Cross Platform Mobile App - Ionic
+\item IoT Devices - Sensors such as HR Monitor, Temperature, Voltage
+\end{itemize}
+
+% Commands to include a figure:
+%\begin{figure}
+%\includegraphics[width=\textwidth]{your-figure's-file-name}
+%\caption{\label{fig:your-figure}Caption goes here.}
+%\end{figure}
+
+
+
+\end{frame}
+
+\subsection{Web App}
+
+\begin{frame}{Web App}
+
+\begin{block}{Initial Usage}
+A web application will be used to document progress initially. This allows the preferred domain name to be reserved and will serve as a source of information to future students that will work on the project.
+\end{block}
+
+\begin{block}{End Goal}
+The end goal is not only a source of documentation but also a place that students can go to learn about signals and systems and interact with the web app to enhance the learning experience.
+\end{block}
+
+\end{frame}
+
+\subsection{Mobile App}
+
+\begin{frame}{Mobile App}
+
+\begin{block}{Platform}
+The mobile application will be done using Ionic. This accomplishes two goals.
+\end{block}
+
+\begin{itemize}
+\item Ionic uses web tools - this simplifies further development for future students on the project
+\item Ionic is cross platform - Android, iOS, Windows Phone can all be developed for using one platform so that no student device left out
+\end{itemize}
+
+\end{frame}
+
+\subsection{Devices}
+
+\begin{frame}{Devices}
+
+\begin{block}{Initial Goal}
+Student should be able to connect to a device and see examples of real signals in use. Some examples of types of devices for initial release include...
+\end{block}
+
+\begin{itemize}
+\item HR Monitor - Polar
+\item Temperature Sensor - TI LM35
+\item Power/Voltage/Current Sensor -  INA219
+\end{itemize}
+
+\end{frame}
+
+
+\subsection{Initial Goals \& Future Enhancement}
+
+\begin{frame}{Initial Goals \& Future Enhancement}
+
+\begin{block}{Important First Steps}
+It would be ideal to have a placeholder page with initial project data in place as well as a history and source of documentation for future students. Furthermore, it is important to have a base system from which future enhancements can be made. To further this end the plan is to use open-source tools which are easy to learn and use. The items that should be released by end of semester are:
+\end{block}
+
+\begin{itemize}
+\item Working Mobile App which displays S\&S information with, ideally, some interaction included
+\item Web Application which documents the entire process and reserves domain name
+\item Documentation \& Source Code Easily Accessible via Source Control(i.e. Github)
+\end{itemize}
+
+\end{frame}
+
+
+\end{document}
